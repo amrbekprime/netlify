@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+
+}
+.wrapper .header{
+   width: 100%;
+   height: 90px;
+   border: 1px solid;
+   display: flex; 
+}
+.wrapper .header .img1{
+    margin-top: 37px;
+    margin-left: 120px;
+    width: 134px;
+    height: 17px;
+}
+.wrapper .header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    margin-left: 830px;
+    align-items: center;
+}
+@font-face {
+    font-family: 'Libre Franklin ';
+    src: url(./Libre_Franklin/static/LibreFranklin-Regular.ttf);
+}
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url(./Tenor_Sans/TenorSans-Regular.ttf)
+}
+.wrapper .header ul li a{
+    font-family: 'Libre Franklin ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+.wrapper .box1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    /* border: 2px solid; */
+}
+.wrapper .box1 img{
+    width: 721px;
+    height: 474px;
+    margin-top: 59px ;
+    margin-left: 118px;
+}
+.wrapper .box1 .p1{
+ font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+margin-top: 65px ;
+margin-left: 51px;
+}
+.wrapper .box1 h1{
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+color: #000000;
+margin-left: 51px;
+margin-top: 18px;
+width: 429px;
+}
+.wrapper .box1 .p2{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+   margin-top: 27px ;
+   margin-left: 51px;
+   width: 419px;
+   }
+.wrapper .box1 h2{
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+margin-left: 51px;
+margin-top: 28px;
+}   
+.wrapper .box2{
+    width: 1220px;
+    height: 444px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 130px;
+    gap: 20px;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+.wrapper .box2 .images{
+   width: 420px;
+   height: 435px;
+   /* border: 1px solid red; */
+   
+}
+.wrapper .box2 .images img{
+ width: 100%;
+ height: 254px;
+}
+.wrapper .box2 .images .p3{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+margin-top: 24px;
+}
+.wrapper .box2 .images .h3{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 18px;
+}
+.wrapper .box2 .images .h4{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 15px;
+color: #000000;
+
+}
+hr{
+  margin-top: 90px;
+  margin-bottom: 132px;
+  width: 1222px;
+  margin-left: 123px;
+}
+.wrapper .box3{
+    width: 1220px;
+    height: 465px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 130px;
+    gap: 20px;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+.wrapper .box3 .images2{
+   width: 420px;
+   height: 435px;
+   /* border: 1px solid red; */
+   
+}
+.wrapper .box3 .images2 img{
+ width: 100%;
+ height: 254px;
+}
+.wrapper .box3 .images2 .p3{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+margin-top: 24px;
+}
+.wrapper .box3 .images2 .h3{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 18px;
+}
+.wrapper .box3 .images2 .h4{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 15px;
+color: #000000;
+
+}
+.wrapper button{
+    width: 205px;
+    height: 54px;
+    margin-top: 90px;
+    margin-left: 628px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.wrapper button a{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none ;
+    
+}
+.wrapper .box4{
+    width: 1200px;
+    height: 530px;
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.wrapper .box4 .images3{
+    width: 590px;
+    height: 520px;
+}
+.wrapper .box4 .images3 img{
+    width: 100%;
+    height: 387px;
+}
+.wrapper .box4 .images3 .p3{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+margin-top: 24px;
+}
+.wrapper .box4 .images3 .h3{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 18px;
+}
+.wrapper .box4 .images3 .h4{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 15px;
+color: #000000;
+}
+.wrapper .box5{
+    width: 100%;
+    height: 700px;
+margin-top: 80px;
+background: #141414;
+}
+.wrapper .box5 img{
+    margin-top: 93px;
+    margin-left: 120px;
+   
+}
+.wrapper .box5 span{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;  
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-left: 15px;
+}
+.wrapper .box5 hr{
+    color: #666666;
+}
+.wrapper .box5 .box7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 350px;
+    margin-top: -70px;
+}
+.wrapper .box5 .box6{
+    display: flex;
+    width: 700px;
+    margin-left: 120px;
+    height: 150px;
+}
+.wrapper .box5 ul li{
+    list-style: none;
+    display: flex;
+    gap: 30px;    
+}
+.wrapper .box5 .ul1 li{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+}
+.wrapper .box5 .ul1 .a2{
+    margin-top: 30px;
+}
+.wrapper .box5 ul .a1 a{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    text-decoration: none;
+}
+.wrapper .box5 ul li a{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+margin-top: 15px;
+text-decoration: none;
+}
+.wrapper .box5 .subs{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #666666;
+}
+.wrapper .box5 .box7 .input{
+    width: 400px;
+    height: 150px;
+    margin-left: 50px;
+}
+.wrapper .box5 .box7 .input .subs{
+margin-top: 15px;
+}
+.wrapper .box5 .box7 .input input {
+    width: 221px;
+    height: 48px;
+    margin-top: 20px;
+    padding: 18px 24px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+background: #FFFFFF;
+color: #666666;
+}
+.wrapper .box5 .box7 .input .button2{
+    width: 79px;
+    height: 48px;
+    margin-left: -10px;
+    margin-top: -0px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+cursor: pointer;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+background: #000000;
+color: #FFFFFF;
+}
+.wrapper .box5 .box8{
+    display: flex;
+    width: 500px;
+    margin-left: 120px;
+    height: 200px;
+    gap: 90px;
+}
